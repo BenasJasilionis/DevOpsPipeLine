@@ -1,0 +1,18 @@
+trigger:
+- main
+
+pool: Default
+  
+
+steps:
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'DevOpsPipeLine'
+    subscriptionId: 'b7a8da95-8387-42bd-bc0d-8aa0ad06dc70'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'DevOpsPipeLine'
+    location: 'Norway East'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://dev.azure.com/benasjasilionis/_git/VmTask?path=/template.json&version=GBmaster'
+    deploymentMode: 'Incremental'
