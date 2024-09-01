@@ -83,7 +83,7 @@
     },
     "vmName": {
       "type": "string",
-      "defaultValue": "DevOpsPipeLine",
+      "defaultValue": "Benas",
       "metadata": {
         "description": "Name of the virtual machine."
       }
