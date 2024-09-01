@@ -19,6 +19,7 @@
     "adminPassword": {
       "type": "securestring",
       "minLength": 12,
+      "defaultValue": "Kanori123456789",
       "metadata": {
         "description": "Password for the Virtual Machine."
       }
