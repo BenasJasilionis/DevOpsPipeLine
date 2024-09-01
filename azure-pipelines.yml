@@ -14,5 +14,5 @@ steps:
     resourceGroupName: 'DevOpsPipeLine'
     location: 'Norway East'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://dev.azure.com/benasjasilionis/_git/VmTask?path=/template.json&version=GBmaster'
+    csmFileLink: 'https://raw.githubusercontent.com/BenasJasilionis/DevOpsPipeLine/main/template.json'
     deploymentMode: 'Incremental'
