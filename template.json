@@ -9,7 +9,7 @@
     }
   },
   "parameters": {
-    "adminUsername": {
+    "adminUsername": { 
       "type": "string",
       "metadata": {
         "description": "Username for the Virtual Machine."
