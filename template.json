@@ -11,6 +11,7 @@
   "parameters": {
     "adminUsername": { 
       "type": "string",
+      "value": null,
       "metadata": {
         "description": "Username for the Virtual Machine."
       }
