@@ -83,7 +83,7 @@
     },
     "vmName": {
       "type": "string",
-      "defaultValue": "Benas",
+      "defaultValue": "Benas1",
       "metadata": {
         "description": "Name of the virtual machine."
       }
