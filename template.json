@@ -83,7 +83,7 @@
     },
     "vmName": {
       "type": "string",
-      "defaultValue": "simple-vm",
+      "defaultValue": "DevOpsPipeLine",
       "metadata": {
         "description": "Name of the virtual machine."
       }
