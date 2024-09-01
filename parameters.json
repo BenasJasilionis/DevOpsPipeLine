@@ -167,7 +167,7 @@
         "adminUsername": {
             "value": {
                 "type": "String",
-                "value": "benas"
+                "value": null
             }
         },
         "adminPassword": {
