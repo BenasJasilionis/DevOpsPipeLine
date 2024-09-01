@@ -15,4 +15,4 @@ steps:
     location: 'Norway East'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/BenasJasilionis/DevOpsPipeLine/main/template.json'
-    deploymentMode: 'Incremental'
+    deploymentMode: 'Complete'
