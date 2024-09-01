@@ -33,7 +33,7 @@
     },
     "publicIpName": {
       "type": "string",
-      "defaultValue": "IChangedThis",
+      "defaultValue": "PublicIP",
       "metadata": {
         "description": "Name for the Public IP used to access the Virtual Machine."
       }
